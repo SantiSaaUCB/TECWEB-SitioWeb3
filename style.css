@@ -1,0 +1,184 @@
+html{
+     scroll-behavior: smooth;
+}
+body{
+     margin: 0;
+     font-family: 'Poppins', sans-serif;
+}
+.colores{
+     color: #0416D5;
+     color: #0412B3;
+     color: #0417DE;
+     color: #030F91;
+     color: #020B6F;
+     color: #00064C;
+}
+.header-index{
+     background-image: url(img/fondo1.jpg);
+     background-position: center;
+     background-size: cover;
+     background-attachment: fixed;
+     height: 100vh;
+     flex-basis: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+     align-items: center;
+}
+.header-nav{
+     height: 20%;
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+     align-items: center;
+}
+.titulo-header{
+     height: 60px;
+     width: 15%;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+     align-items: center;
+     font-size: xx-large;
+     font-weight: 600;
+     color: white;
+}
+.titulo-2-header{
+     font-size: x-large;
+     font-weight: 10;
+}
+.nav-index-links{
+     height: 100px;
+     width: 60%;
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-end;
+     align-items: center;
+     list-style-type: none;
+     gap: 40px;
+     font-size: medium;
+     font-weight: 600;
+}
+.nav-index-links a{
+     text-decoration: none;
+     color: white;
+}
+.nav-index-links a:hover{
+     color: #00064C;
+}
+.tickets-index,
+.learn-more-index,
+.learn-more-seccion{
+     height: 50px;
+     width: 150px;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     border-radius: 30px;
+     background-color: #00064C;
+     color: white;
+     text-decoration: none;
+     text-transform: uppercase;
+     font-size: medium;
+     font-weight: 600;
+     transition: 0.3s;
+}
+.tickets-index:hover,
+.learn-more-index:hover,
+.learn-more-seccion:hover{
+     background-color: #030F91;
+}
+.titulo-index{
+     height: 80%;
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+     align-items: center;
+     color: white;
+     font-size: 3rem;
+}
+/*------------------CHAT---------------------*/
+.titulo-index h1{
+     font-size: 2rem;
+     position: relative;
+}
+.titulo-index h1::after{
+     content: '';
+     display: block;
+     height: 6px;
+     width: 200px;
+     background-color: #00064C;
+     margin: 10px auto 0;
+}
+/*-------------------------------------------*/
+.seccion-index{
+     height: 1000px;
+     flex-basis: 100%;
+}
+.uno{
+     background-color: whitesmoke;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+     align-items: center;
+}
+.frase-seccion-uno{
+     height: 150px;
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+}
+.titulo-seccion-uno{
+     height: 150px;
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+}
+.contenedor-divs-seccion-uno{
+     height: 600px;
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+     align-items: center;
+}
+.contenedores-seccion-index{
+     height: 500px;
+     width: 600px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+     align-items: center;
+}
+.imagen-seccion{
+     height: 300px;
+     width: 450px;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     box-shadow: 10px 10px rgba(95, 93, 93, 0.5);
+     border-radius: 10px;
+     overflow: hidden;
+}
+.texto-seccion{
+     height: 100px;
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+.dos{
+     background-color: cadetblue;
+}
+.tres{
+     background-color: brown;
+}
